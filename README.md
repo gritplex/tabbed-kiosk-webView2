@@ -18,7 +18,7 @@ The path to this runtime needs to be set in the settings.json.
 
 The v0.1 release includes a runtime already downloaded.
 
-If you are starting this application by using the cmd line or another application and the the settings file cannot be found, try adding the full path to the settings file as a cmd line parameter to the TabbedKioskPortable.exe
+If you are starting this application by using the cmd line or another application and the settings file cannot be found, try adding the full path to the settings file as a cmd line parameter to the TabbedKioskPortable.exe
 
 MIT License, use at your own risk.
 
