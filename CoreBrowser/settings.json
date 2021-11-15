@@ -1,0 +1,40 @@
+﻿{
+  // Options are:
+  // "First" -> chooses the first display you have (the left most display)
+  // "Last" -> chooses the last display you have (the right most display)
+  // "Id" -> chooses the display you have set in the "DisplayId" property
+  "OpenOnDisplay": "Last",
+
+  // If "OpenOnDisplay" = "Id"
+  // then you need to set this to the Id of the display you want
+  // Count your displays from left to right starting at 1
+  // and set this to the number for your choosen display
+  "DisplayId": null,
+
+  // If you are in an environment where MS edge (the latest one) is not installed
+  // and you need true "portable" without any installation (just copy/paste)
+  // this path should point to a FIXED version of the webview2 runtime
+  // you can download it from https://developer.microsoft.com/en-us/microsoft-edge/webview2/
+  // if you want to use the windows provided runtime (or you have edge canary installed) you can delete this line
+  // or set the path to null
+  // Disclaimer: You are responsible for keeping this up to date
+  "BrowserExecutableFolder": "./Microsoft.WebView2.FixedVersionRuntime.95.0.1020.40.x64",
+
+  // set tabs you want to open in kiosk mode
+  "Tabs": [
+    {
+      // Name of the Tab
+      "Name": "Google",
+      // URI to open
+      "Uri": "https://www.google.com"
+    },
+    {
+      "Name": "Github",
+      "Uri": "https://www.github.com"
+    },
+    {
+      "Name": "Understanding Flow Charts",
+      "Uri": "https://xkcd.com/518/"
+    }
+  ]
+}

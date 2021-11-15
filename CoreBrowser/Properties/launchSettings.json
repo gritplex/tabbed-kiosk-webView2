@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CoreBrowser": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\MatthiasGrunewald\\source\\repos\\CoreBrowser\\CoreBrowser\\settings.json\""
+    }
+  }
+}
