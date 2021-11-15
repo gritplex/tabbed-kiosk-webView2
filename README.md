@@ -1,4 +1,4 @@
-# tabbed-kiosk-webView2
+# Portable WebView2 Kiosk with Tabs
 minimal kiosk mode app for webview2 with tabs
 
 ![demo](https://github.com/gritplex/tabbed-kiosk-webView2/blob/main/media/demo.gif)
